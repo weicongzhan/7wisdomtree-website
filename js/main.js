@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }, observerOptions);
 
-  document.querySelectorAll('.feature-card, .path-step, .testimonial-card, .course-category, .value-card, .contact-method').forEach(function (el) {
+  document.querySelectorAll('.feature-card, .path-step, .testimonial-card, .course-category, .value-card, .contact-method, .teacher-card').forEach(function (el) {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
