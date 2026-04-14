@@ -168,13 +168,17 @@ img {
 .nav-logo .logo-icon {
   width: 40px;
   height: 40px;
-  background: var(--primary);
-  color: #fff;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.4rem;
+}
+
+.nav-logo .logo-img {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {
