@@ -1,3 +1,10 @@
 .DS_Store
 老师介绍/
 学习平台介绍/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
